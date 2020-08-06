@@ -8,6 +8,5 @@ function siteLocation(url) {
   return scriptName;
 }
 
-
 let helperScript = siteLocation(window.location.href)
 // console.log(helperScript);
