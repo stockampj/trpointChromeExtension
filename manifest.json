@@ -14,7 +14,8 @@
    "content_scripts": [
     {
       "matches": [
-        "https://trpoint.com/App1/TCApp/Docs/TxnDocuments.*"
+        "https://www.trpoint.com/App1/TCApp/Docs/TxnDocuments.*"
+        
       ],
       "js": ["js/jquery-3.5.1.min.js", "js/flashDrive.js"]
     }, {
@@ -25,7 +26,7 @@
     },
     {
       "matches": [
-        "https://trpoint.com/App1/Reports/ReportBranches.*"
+        "https://www.trpoint.com/App1/Reports/ReportBranches.*"
       ],
       "js": ["js/jquery-3.5.1.min.js", "js/branchReports.js"]
     }
