@@ -187,13 +187,21 @@ function markMatches(documentList){
 // filterOutDocuments(masterDocumentList, deSelectList);
 // markMatches(masterDocumentList);
 
-
+function clearBackgrounds (){
+  let list = $('.GvGrid');
+  Object.keys(list).forEach(key =>{
+    if (list[key].style){
+      list[key].style.backgroundColor = "white"
+    }
+  })
+}
 
 
 function addFlashDrivePanel() {
   let jqTarget = $('#flashdrive-tools')[0]
   if (jqTarget === undefined){
     function buttonScript(){
+      clearBackgrounds();
       let masterDocumentList = gatherDocumentList();
       markMatches(masterDocumentList);
       filterOutDocuments(masterDocumentList, deSelectList);

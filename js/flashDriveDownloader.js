@@ -13,7 +13,7 @@ function downloadAllFiles(){
   function fileDownloaderScript(){
     
   
-    let interval= setInterval(clickFunction,1500,filteredLinks);
+    let interval= setInterval(clickFunction,2500,filteredLinks);
     let count = 0;
     function clickFunction(filteredLinks) {
       let node = filteredLinks.pop();

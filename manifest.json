@@ -18,7 +18,15 @@
         
       ],
       "js": ["js/jquery-3.5.1.min.js", "js/flashDrive.js"]
-    }, {
+    },
+    {
+      "matches": [
+        "https://trpoint.com/App1/TCApp/Docs/TxnDocuments.*"
+        
+      ],
+      "js": ["js/jquery-3.5.1.min.js", "js/flashDrive.js"]
+    }, 
+    {
       "matches": [
         "https://www.trpoint.com/DocAccess/DocAccess.*"
       ],
@@ -27,6 +35,12 @@
     {
       "matches": [
         "https://www.trpoint.com/App1/Reports/ReportBranches.*"
+      ],
+      "js": ["js/jquery-3.5.1.min.js", "js/branchReports.js"]
+    },
+    {
+      "matches": [
+        "https://trpoint.com/App1/Reports/ReportBranches.*"
       ],
       "js": ["js/jquery-3.5.1.min.js", "js/branchReports.js"]
     }
